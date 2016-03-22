@@ -1,10 +1,9 @@
 <?php
 /*
 Plugin Name: Active Plugins
-Plugin URI: http://trepmal.com/plugins/active-plugins-on-multisite/
-Description: Get number of users for each active plugin (minus network-activated). Then break down by site.
-Author: Kailey Lampert
-Version: 1.6
+Description: Get number of users for each active plugin (minus network-activated). Then break down by site.  Original Plugin URI: http://trepmal.com/plugins/active-plugins-on-multisite/
+Author: Cameron Macintosh, Kailey Lampert
+Version: 1.6.1
 Author URI: http://kaileylampert.com/
 Network: true
 
@@ -128,7 +127,7 @@ class activeplugins {
 			echo '<ul class="ul-disc">';
 			foreach( $remove_network as $k => $inactive ) {
 				// $realname = $all_plugins[$inactive]['Name'] . ' v' . $all_plugins[ $inactive ]['Version'];
-				$version = isset( $all_plugins[$name]['Version'] ) ? $all_plugins[$name]['Version'] : '';
+				$version = isset( $all_plugins[$inactive]['Version'] ) ? $all_plugins[$inactive]['Version'] : '';
 				$version = sprintf( __( 'v%s', 'active-plugins' ), $version );
 				$realname = sprintf( __( '%1$s %2$s', 'active-plugins' ), $all_plugins[ $inactive ]['Name'], $version );
 				$unused[] = "<li>{$realname}</li>";
