@@ -1,26 +1,25 @@
-=== Active Plugins ===
-Contributors: trepmal 
-Donate link: http://kaileylampert.com/donate.php
+=== Active Plugins Fork ===
+Contributors: jcmaci03, trepmal 
 Tags: mutlisite, plugins, utility
 Requires at least: 3.2.1
-Tested up to: 3.5
-Stable tag: 1.6
+Tested up to: 4.2
+Stable tag: 1.6.1
 
 Generates a list of plugins that are currently in use
 
 == Description ==
 
+This plugin is a fork of [Active Plugins on MultiSite](https://wordpress.org/plugins/active-plugins-on-multisite/).
+
 Generates a list of plugins that are currently in use, excluding Network-Activated
 
 Untested with anything older than WP 3.2.1.
 
-If you feel this plugin deserves a low-star rating, please indicate why by starting a thread in the forum. If something is broken, I need you to tell me so I can fix it. Thanks.
-
-* [other plugins by this author](http://wordpress.org/extend/plugins/profile/trepmal)
-* [author's profile](http://profiles.wordpress.org/users/trepmal/)
-* [author's forum profile](http://wordpress.org/support/profile/trepmal)
-* [donate](http://kaileylampert.com/donate/)
-* [author's website](http://kaileylampert.com)
+* [Cameron Macintosh's WordPress profile](http://profiles.wordpress.org/support/profile/jcmaci03/)
+* [Plugin Repository](https://github.com/cambot/active-plugins)
+* [Other plugins by Kailey Lampert](http://wordpress.org/extend/plugins/profile/trepmal)
+* [Kailey Lampert's WordPress profile](http://profiles.wordpress.org/users/trepmal/)
+* [Kailey Lampert's website](http://kaileylampert.com)
 
 == Installation ==
 
@@ -31,8 +30,7 @@ If you feel this plugin deserves a low-star rating, please indicate why by start
 == Screenshots ==
 
 1. Totals
-2. 
-3. tagged plugins
+2. tagged plugins
 
 == Frequently Asked Questions ==
 
@@ -43,7 +41,7 @@ Note that this only supports one tag per plugin.
 
 == Upgrade Notice ==
 
-= 1.5 =
+= 1.6 =
 Not pretty, but not as ugly either. Code cleanup.
 
 = 1.5 =
@@ -53,6 +51,10 @@ A little prettier.
 plugin now shows inactive plugins (plugins with 0 users).
 
 == Changelog ==
+
+= 1.6.1 =
+* List correct version of inactive plugins.
+* Move "Active Plugins" menu from settings to plugins.
 
 = 1.6 =
 * Verified agains 3.5

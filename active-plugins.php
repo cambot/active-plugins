@@ -1,10 +1,9 @@
 <?php
 /*
-Plugin Name: Active Plugins
-Description: Get number of users for each active plugin (minus network-activated). Then break down by site.  Original Plugin URI: http://trepmal.com/plugins/active-plugins-on-multisite/
+Plugin Name: Active Plugins Fork
+Description: Get number of users for each active plugin (minus network-activated). Then break down by site.  Fork of http://trepmal.com/plugins/active-plugins-on-multisite/
 Author: Cameron Macintosh, Kailey Lampert
 Version: 1.6.1
-Author URI: http://kaileylampert.com/
 Network: true
 
 Copyright (C) 2011-12 Kailey Lampert
