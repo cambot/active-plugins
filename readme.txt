@@ -2,7 +2,7 @@
 Contributors: jcmaci03, trepmal 
 Tags: mutlisite, plugins, utility
 Requires at least: 3.2.1
-Tested up to: 4.2
+Tested up to: 4.4.2
 Stable tag: 1.6.1
 
 Generates a list of plugins that are currently in use
@@ -41,6 +41,9 @@ Note that this only supports one tag per plugin.
 
 == Upgrade Notice ==
 
+= 1.6.1 =
+* Moved admin page from Settings menu to Plugins menu.
+
 = 1.6 =
 Not pretty, but not as ugly either. Code cleanup.
 
@@ -55,9 +58,10 @@ plugin now shows inactive plugins (plugins with 0 users).
 = 1.6.1 =
 * List correct version of inactive plugins.
 * Move "Active Plugins" menu from settings to plugins.
+* Verified against 4.4.2.
 
 = 1.6 =
-* Verified agains 3.5
+* Verified against 3.5
 * More code clean up
 * Slight de-uglification.
 
