@@ -43,7 +43,7 @@ class activeplugins {
 	}
 
 	function network_admin_menu() {
-		add_submenu_page( 'settings.php', __( 'Active Plugins', 'active-plugins' ), __( 'Active Plugins', 'active-plugins' ), 'unfiltered_html', __FILE__, array( &$this, 'page' ) );
+		add_submenu_page( 'plugins.php', __( 'Active Plugins', 'active-plugins' ), __( 'Active Plugins', 'active-plugins' ), 'unfiltered_html', __FILE__, array( &$this, 'page' ) );
 	}
 
 	function page() {
